@@ -1,0 +1,55 @@
+/* Modern CSS styling for BMW M5 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.nav {
+    background: #333;
+    padding: 15px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+.nav a:hover {
+    background: #575757;
+}
+
+.carousel {
+    width: 100%;
+    height: 400px;
+    background: url('bmw-m5-carousel.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.content {
+    padding: 20px;
+}
+
+.footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
